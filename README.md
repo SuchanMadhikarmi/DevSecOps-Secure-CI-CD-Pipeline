@@ -1,8 +1,11 @@
 # DevSecOps – Secure CI/CD Pipeline with EKS, Jenkins, SonarQube, Trivy, and Slack Integration
 
-This project demonstrates the implementation of a complete DevSecOps pipeline for a three-tier web application using modern cloud-native tools. It follows best practices in infrastructure automation, security scanning, CI/CD, monitoring, and alerting.
+This project demonstrates a complete DevSecOps pipeline built around a secure, observable, and scalable deployment of a three-tier Node.js application with a MySQL database. The infrastructure is containerized and orchestrated using Amazon EKS (Elastic Kubernetes Service).
 
-GitHub Repository: [SuchanMadhikarmi/devsecopsProject](https://github.com/SuchanMadhikarmi/devsecopsProject)
+The CI/CD pipeline is implemented using Jenkins, with integrated security scanning tools like SonarQube (code quality), Trivy (container vulnerability scanning), and Gitleaks (secret scanning). Monitoring and alerting are set up using Prometheus, Grafana, and Slack notifications. Helm charts are used for deploying monitoring tools to Kubernetes.
+
+ All configurations, scripts, Kubernetes manifests, Jenkinsfiles, and Helm charts used in this project are available in the GitHub repository:
+ GitHub Repository: [SuchanMadhikarmi/devsecopsProject](https://github.com/SuchanMadhikarmi/devsecopsProject)
 
 ## Tech Stack
 
